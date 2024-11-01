@@ -1,0 +1,622 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pagalo Card - WooCommerce Payment Gateway\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-26 07:47+0000\n"
+"PO-Revision-Date: 2024-10-06 21:24+0000\n"
+"Last-Translator: Edwin Xico\n"
+"Language-Team: Español\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.3; wp-5.5.3"
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:365
+#, php-format
+msgid ""
+"<strong>%s</strong> is enabled but the pulgin hasn't been configured yet. "
+"Please ensure that you have a valid Secret Key, Public Key and Company ID. "
+"You can configure them <a href=\"%s\">here</a>"
+msgstr ""
+"<strong>%s</strong> está activado pero el plugin aún no ha sido configurado. "
+"Por favor asegurate de que has ingresado una Secret Key, Public Key y "
+"Company ID válidos. Puedes configurarlos <a href=\"%s\">aquí</a>"
+
+#: wp-pagalo-woocommerce.php:75
+msgid "activate"
+msgstr "activa"
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:589
+msgid "Antifraud system error."
+msgstr "Error del sistema anti-fraudes."
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:130
+msgid "API Credential"
+msgstr "API Credential"
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:120
+msgid "API Public Key"
+msgstr "Public Key de la API"
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:125
+msgid "API Secret Key"
+msgstr "Secret Key de la API"
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:612
+msgid "Call to the bank"
+msgstr "Comunícate con el banco."
+
+#: admin/wp-filters.php:27 admin/helpers/class-wc-gateway-pagalo-cuotas.php:262
+msgid "Card Code"
+msgstr "CVV"
+
+#: admin/wp-filters.php:17 admin/helpers/class-wc-gateway-pagalo-cuotas.php:251
+msgid "Card Number"
+msgstr "Número de Tarjeta"
+
+#: admin/wp-filters.php:14 admin/helpers/class-wc-gateway-pagalo-cuotas.php:248
+msgid "CARDHOLDER NAME"
+msgstr "NOMBRE EN TARJETA"
+
+#: admin/wp-filters.php:12 admin/helpers/class-wc-gateway-pagalo-cuotas.php:246
+msgid "Cardholder Name"
+msgstr "Nombre en Tarjeta"
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:78
+msgid "Credit card (MasterCard or Visa)"
+msgstr "Tarjeta de crédito (MasterCard o Visa)"
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:657
+msgid ""
+"Credit card is not allowed to make purchases, please contact your issuing "
+"bank."
+msgstr "Tarjeta sin permisos, contacte su banco emisor."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:636
+msgid "Credit card not supported"
+msgstr ""
+"El tipo de tarjeta no es aceptado. Asegúrate de estar ingresando una tarjeta "
+"Visa o MasterCard"
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:639
+msgid "Credit card number is invalid."
+msgstr "número de tarjeta de crédito invalido"
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:642
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:645
+msgid "Credit card number is reported as lost or stolen."
+msgstr "Tarjeta de crédito reportada como perdida o robada."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:569
+msgid "CVV doesn't match."
+msgstr "El código de seguridad (CVV) no es correcto."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:575
+msgid "CVV is incorrect."
+msgstr "CVV es incorrecto."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:578
+msgid "Denied for not passing the CVV control."
+msgstr "Transacción denegada por no haber pasado el control del código CVV."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:651
+msgid "Denied, Credit card expired"
+msgstr "Denegada, tarjeta de crédito ha expirado."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:654
+msgid "Denied, Exceeded ammount"
+msgstr "Denegada, ha excedido el limite en su cuenta."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:648
+msgid "Denied, Insufficient founds"
+msgstr "Denegada por fondos insuficientes."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:660
+msgid "Denied, number of transactions exceeded"
+msgstr "Denegada, ha superado el número de transacciones permitidas."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:603
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:606
+msgid "Denied, please refer to the bank"
+msgstr "Denegado, por favor contacta a tu banco."
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:81
+msgid "Description"
+msgstr "Descripción"
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:83
+msgid ""
+"Description of this payment option displayed to the clients on the checkout "
+"process."
+msgstr ""
+"Descripción de ésta opción de pago que se mostrará a los clientes durante el "
+"proceso de pago."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:391
+msgid "Description:"
+msgstr "Descripción:"
+
+#. Author of the plugin
+msgid "Digital Labs"
+msgstr "Digital Labs"
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:149
+msgid "Don't send order details to Pagalo"
+msgstr "No enviar detalles de órden a Pagalo"
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:69
+msgid "Enable / Disable"
+msgstr "Habilitar / Deshabilitar"
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:157
+msgid "Enable / Disable Installments"
+msgstr "Activar / Desactivar Cuotas"
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:143
+msgid "Enable / Disable NIT field on checkout"
+msgstr "Activar / Desactivar campo de NIT en página de pago"
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:158
+msgid "Enable installments on this payment gateway"
+msgstr "Activar pagos en cutoas en esta pasarela de pagos"
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:144
+msgid "Enable NIT field on checkout form"
+msgstr "Activar el campo de NIT en formulario de pago"
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:152
+msgid ""
+"Enable this option if you don't want to send order details to Pagalo or if "
+"you are using an advanced discount plugin that doesn't apply discounts at "
+"the Product level"
+msgstr ""
+"Activa ésta opción si no quires enviar los detalles de la órden a Pagalo o "
+"si utilizas algún plugin con descuentos avanzados que no aplican descuentos "
+"a nivel de Producto."
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:70
+msgid "Enable this payment gateway"
+msgstr "Habilitar ésta pasarela de pagos"
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:256
+msgid "Expiry (MM/YY)"
+msgstr "Expira (MM/YY)"
+
+#: admin/wp-filters.php:22
+msgid "Expiry (MM/YYYY)"
+msgstr "Expira (MM/AAAA)"
+
+#: admin/helpers/class-woocommerce-pagalo.php:271
+msgid "Fee"
+msgstr "Gratis"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://digitallabs.agency"
+msgstr "https://digitallabs.agency"
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:110
+msgid "IdenEmpresa"
+msgstr "IdenEmpresa"
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:151
+msgid ""
+"If this setting is enabled, the plugin will send a single product named "
+"\"Order #{order_id} at {http://yourwebsite.com}\""
+msgstr ""
+"Si éste ajuste está activado el plugin enviará un solo producto llamado "
+"\"Orden #{numero_orde} en {http://tusitioweb.com}\""
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:163
+msgid "Installments"
+msgstr "Pago en Cuotas"
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:168
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:169
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:170
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:171
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:237
+msgid "installments"
+msgstr "cuotas"
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:176
+msgid "Installments Minimum Amount"
+msgstr "Monto mínimo para pagos en cuotas"
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:621
+msgid "Insufficient funds"
+msgstr "Fondos insuficientes."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:595
+msgid "Insufficient information about your address."
+msgstr "Insuficiente información del cliente/dirección"
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:624
+msgid "Invalid Card"
+msgstr "Tarjeta inválida."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:609
+msgid "Invalid Merchant"
+msgstr "Comercio inválido."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:618
+msgid "Invalid Transaction"
+msgstr "Transacción invalida."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:547
+msgid "Invalid transaction. Please contact support."
+msgstr "Transacción invalida. Por favor contacte a soporte."
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:137
+msgid ""
+"Leave <b>visanetgt_jupiter</b> when using Pagalo Card&apos;s merchant ID, "
+"only change this setting if you have acquired your own key. Please contact "
+"Pagalo&apos;s team for more information on this field."
+msgstr ""
+"Dejar  <b>visanetgt_jupiter</b> cuando se utilice la clave de Pagalo, "
+"unicamente cambia este campo si cuentas con una llave propia. Por favor "
+"contacta a Pagalo para mas información sobre este campo."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:627
+msgid "Merchant Invalid"
+msgstr "Comercio inválido."
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:135
+msgid "merchantID"
+msgstr "merchantID"
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:231
+msgid "Method of payment"
+msgstr "Forma de pago"
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:258
+msgid "MM / YY"
+msgstr "MM / YY"
+
+#: admin/wp-filters.php:24
+msgid "MM / YYYY"
+msgstr "MM / YYY"
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:99
+msgid "Mode"
+msgstr "Modo"
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:106
+msgid ""
+"Most accounts should use CyberSource mode by default. Contact Pagalo if your "
+"website requires EPAY mode."
+msgstr ""
+"La mayoría de cuentas deben usar la modalidad CyberSource. Contacta a Pagalo "
+"si tu sitio web requiere la modalidad EPAY."
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:95
+msgid ""
+"Most accounts should use EPAY mode by default. Contact Pagalo if your "
+"website requires CYBERSOURCE mode."
+msgstr ""
+"La mayoría de cuentas usan el modo EPAY. Contacta a Pagalo si tu sitio web "
+"requiere utilizar el modo CYBERSOURCE."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:538
+msgid "One ore more fields contains invalid data."
+msgstr "Uno o más campos contienen información invalida."
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:24
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:28
+msgid "Pagalo"
+msgstr "Pagalo"
+
+#. Name of the plugin
+msgid "Pagalo - WooCommerce Payment Gateway"
+msgstr "Pagalo - Pasarela de Pagos para WooCommerce"
+
+#: wp-pagalo-woocommerce.php:67
+msgid "Pagalo - WooCommerce Payment Gateway requires WooCommerce to work"
+msgstr ""
+"Pasarela de Paglos de WooCommerce - Pagalo requiere de WooCommerce para "
+"funcionar"
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:26
+msgid ""
+"Pagalo Payment Gateway Plug-in for WooCommerce. Accept Visa and MasterCard "
+"cards, this plugin works on Cybersource or Epay mode and also enables visa "
+"instalments"
+msgstr ""
+"Pasarela de pagos de Pagalo para WooCommerce. Acepta tarjetas Visa y "
+"Mastercard, este plugin funciona para la modalidad de Cybersource o EPAY, y "
+"tambien ofrece la opcion de pago en cuotas."
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:330
+msgid "PagaloCard complete payment."
+msgstr "Solución de pago completa de PagaloCard"
+
+#: wp-pagalo-woocommerce.php:75
+msgid "Please"
+msgstr "Por favor"
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:664
+msgid ""
+"Please contact the store owner for more information or alternative ways to "
+"pay."
+msgstr ""
+"Por favor contacte al administrador de la tienda para mas información o "
+"formas alternativas de pago."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:541
+msgid "Please try again."
+msgstr "Por favor intenta nuevamente."
+
+#. Description of the plugin
+msgid ""
+"Receive Visa and Mastercard payments on WooCommerce with this custom payment "
+"gateway integration with Pagalo."
+msgstr ""
+"Recibe pagos con tarjetas Visa y MasterCard en WooCommcer con esta "
+"integracion personalizada con Pagalo."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:535
+msgid "Required fields are missing."
+msgstr "Algunos campos obligatorios están vacíos."
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:165
+msgid ""
+"Select the installment options you would like users to have when paying."
+msgstr ""
+"Selecciona las opciones de cuotas que deseas que tus clientes puedan elegir "
+"al momento de pagar."
+
+#: wp-pagalo-woocommerce.php:57
+msgid "Settings"
+msgstr "Configuraciones"
+
+#: admin/helpers/class-woocommerce-pagalo.php:294
+#: admin/helpers/class-woocommerce-pagalo.php:295
+#: admin/helpers/class-woocommerce-pagalo.php:303
+msgid "Shipping"
+msgstr "Envío"
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:633
+msgid "Somre required fields are missing, please contact support"
+msgstr ""
+"Algunos campos obligatorios están vacíos, por favor contacta a soporte."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:371
+msgid "Successful payment."
+msgstr "Pago exitoso."
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:84
+msgid "Successfull payment through credit card."
+msgstr "Pago por medio de tarjeta de crédito."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:566
+msgid "Tarjeta inactiva o no autorizada."
+msgstr "Tarjeta inactiva o no autorizada."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:556
+msgid ""
+"The authorization request was approved by the issuing bank but declined by "
+"CyberSource\n"
+"because it did not pass the Address Verification Service (AVS) check."
+msgstr ""
+"La solicitud fue aprobada por el banco, pero fue rechazada por CyberSource "
+"porque no cumplió por la verificación de la dirección."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:572
+msgid "The card has reached it's credit limit."
+msgstr "La tarjeta de crédito ha alcanzado su limite."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:406
+msgid ""
+"The conection with the paypemnt provider can not be established. Please try "
+"again latter."
+msgstr ""
+"La conexión con el proveedor de pagos no puede ser establecida. Por favor "
+"intenta más tarde."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:581
+msgid "The credit card number is invalid."
+msgstr "El número de tarjeta es inválido."
+
+#: wp-pagalo-woocommerce.php:75
+msgid "the Pagalo Plugin with Installments Licence to start using this plugin!"
+msgstr ""
+"la licencia del plugin de Pagalo y pagos en Cuotas para comenzar a utilizar "
+"el plugin!"
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:586
+msgid ""
+"The payment processor doesn't accept that type of card. Make sure you are "
+"using a Visa or MasterCard credit card."
+msgstr ""
+"El procesador de pagos no acepta este tipo de tarjetas. Asegúrate de estar "
+"utilizando una tarjeta Visa o MasterCard."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:598
+msgid ""
+"The transaction was not approved. Wait a few minutes and try again. If this "
+"error persists, contact the store owner for more information or alternative "
+"ways to pay."
+msgstr ""
+"La transacción no fue aprobada. Espera unos minutos e intenta nuevamente. Si "
+"el error persiste, por favor contacta al administrador de la tienda para mas "
+"información o formas alternativas de pago."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:563
+msgid "There are not enough funds in the account."
+msgstr "No hay suficientes fondos en su cuenta."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:592
+msgid ""
+"There was an error with the payment processor. Wait a few minutes and try "
+"again. If this error persists, contact the store owner for more information "
+"or alternative ways to pay."
+msgstr ""
+"Hubo un error con el procesador de pagos. Espera unos minutos e intenta "
+"nuevamente. Si el error persiste, contacta al administrador de la tienda "
+"para mas información o formas alternativas de pago."
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:132
+msgid ""
+"This is the API Credential provided by Pagalo when you signed up for an "
+"account."
+msgstr ""
+"Ésta es la credencial de la API que Pagalo te brinda luego de registrar tu "
+"cuenta."
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:127
+msgid ""
+"This is the API Secret Key provided by PagaloCard when you signed up for an "
+"account."
+msgstr ""
+"Éste es la Secret Key de la API provista por PagaloCard cuando se registra "
+"una cuenta."
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:112
+msgid ""
+"This is the IdemEmpresa provided by PagaloCard when you signed up for an "
+"account."
+msgstr ""
+"Éste es la IdemEmpresa provista por PagaloCard cuando se registra una cuenta."
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:138
+msgid ""
+"This is the merchant ID provided by PagaloCard when you signed up for an "
+"account."
+msgstr ""
+"Éste es el merchant ID provisto por PagaloCard cuando se registra una nueva "
+"cuenta."
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:122
+msgid ""
+"This is the Public Key provided by PagaloCard when you signed up for an "
+"account."
+msgstr ""
+"Éste es la Public Key provista por PagaloCard cuando se registra una cuenta."
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:117
+msgid ""
+"This is the Token provided by PagaloCard when you signed up for an account."
+msgstr ""
+"Éste es el Token provisto por PagaloCard cuando se registra una cuenta."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:550
+msgid "Time out."
+msgstr "Tiempo de espera superado."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:553
+msgid "Time out. Please contact support"
+msgstr "Tiempo de espera superado. Por favor contacta a soporte."
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:75
+msgid "Title"
+msgstr "Título"
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:77
+msgid ""
+"Title of this payment option displayed to the clients on the checkout "
+"process."
+msgstr ""
+"Título de la opción de pago que se mostrará a los clientes durante el "
+"proceso de pago."
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:115
+msgid "Token"
+msgstr "Token"
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:374
+msgid "Transaction has failed."
+msgstr "Transacción fallida."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:615
+msgid "Transaction not accepted"
+msgstr "La transacción no fue aceptada."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:544
+msgid "Transaction was not approved. Please try again."
+msgstr "La transacción no fue aprobada. Por favor intenta nuevamente."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:630
+msgid "Try Again"
+msgstr "Intenta nuevamente"
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:563
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:566
+msgid ""
+"Try with a different credit card or contact your bank if you think this is a "
+"mistake."
+msgstr ""
+"Intenta con una tarjeta distinta o contacta a tu banco si crees que esto es "
+"un error."
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:178
+msgid ""
+"Type the minimum amount required to enable installment options. The field "
+"has to be a number grater than 200. If the input entered is not a text or it "
+"is a number smaller than 200, then it will be ignored and the plugin will "
+"use 200 as the minimum amount."
+msgstr ""
+"Ingresar el monto mínimo requerido para activar las opciones de visacuotas. "
+"El campo debe tener un número mayor a 200. Si el campo ingresado no es un "
+"número, o es un número menor a 200, entonces será ignorado y el plugin usará "
+"200 como el monto mínimo."
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:235
+msgid "Up-front"
+msgstr "Al contado"
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:584
+msgid "Ups! It looks that there is an error in the credit card"
+msgstr "Ups! Parece que hay un error en la tarjeta de crédito"
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:48
+#, fuzzy
+#| msgid ""
+#| "Some information is missing for the payment gateway configuration so the "
+#| "payment won't work. Please contact the store owner for more information "
+#| "or alternative ways to pay."
+msgid ""
+"V1 Some information is missing for the payment gateway configuration so the "
+"payment won't work. Please contact the store owner for more information or "
+"alternative ways to pay."
+msgstr ""
+"Algunos datos de la configuración del pago hacen falta. Por favor contacte "
+"al administrador de la tienda para mas información o formas alternativas de "
+"pago."
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:53
+msgid ""
+"V2 Some information is missing for the payment gateway configuration so the "
+"payment won't work. Please contact the store owner for more information or "
+"alternative ways to pay."
+msgstr ""
+"Existe información faltante en la configuración de la pasarela de pagos por "
+"lo que el pago no funcionará. Por favor contacta al administrador del sitio "
+"web para más información o formas alternativas de pago."
+
+#: admin/helpers/class-wc-gateway-pagalo-cuotas.php:88
+msgid "Version"
+msgstr "Versión"
+
+#: admin/wp-actions.php:52
+msgid ""
+"You are using the <strong>Pagalo - WooCommerce Payment Gateway</strong> "
+"plugin developed by <a href=\"https://digitallabs.agency\" target=\"_blank\">"
+"Digital Labs</a>. If you need assistance configuring the plugin, help with "
+"your eCommerce site or just want to say hi, feel free to contact us <a "
+"href=\"https://digitallabs.agency/contacto\" target=\"_blank\">here</a>. We "
+"will be happy to work with you."
+msgstr ""
+"Estás utilizando el plugin <strong>Pagalo - Pasarela de Pagos para "
+"WooCommerce</strong> desarrollado por <a href=\"https://digitallabs.agency\" "
+"target=\"_blank\">Digital Labs</a>. Si necesitas asistencia en la "
+"configuración del plugin, ayuda con tu sitio eCommerce o simplemente quieres "
+"saludar, puedes contactarnos  <a href=\"https://digitallabs."
+"agency/contacto\" target=\"_blank\">aquí</a>. Estaremos felices de trabajar "
+"contigo."
+
+#: admin/helpers/pagalo-sdk-php/class-pagalo-api.php:560
+msgid "Your card has expired."
+msgstr "Tu tarjeta ha expirado."
